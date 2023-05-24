@@ -1,0 +1,45 @@
+* {
+    font-family: verdana;
+}
+
+body {
+    background: url('images/fruits.jpg') no-repeat fixed center;
+}
+
+.main-box {
+    text-align: center;
+    border: 2px solid;
+    margin: auto;
+    width: 30%;
+    background-color: lightblue;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.top-content {
+}
+
+.main-content {
+    margin: 50px;
+    padding: 100px;
+    background-color:yellowgreen;
+    border-radius: 10px;
+}
+
+button {
+    width: auto;
+    font-size: 1.25rem;
+    background-color:beige;
+    border-radius: 10px;
+    padding:10px;
+    margin:10px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: #EEEE00;
+}
+
+.bottom-content{
+    padding: 20px;
+}

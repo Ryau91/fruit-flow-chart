@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <title>Fruit flow chart</title>
 </head>
 <body>
-    <header>
-        <h1>Which fruit are you?</h1>
-    </header>
-    <fieldset>
-        <h4>Q2. Tropical getaway or countryside?</h4>
-        <button onclick="window.location.href='Q3a.html'">Tropical getaway</button>
-        <button onclick="window.location.href='Q3b.html'">Countryside</button>
-    </fieldset>
-    <br/>
-    <footer>
-        <button onclick="window.location.href='home.html'">Restart</button>
-    </footer>
+    <div class="main-box">
+        <div class="top-content">
+            <header>
+                <h1><i>Which fruit are you?</i></h1>
+            </header>
+        </div>
+        <div class="main-content">
+            <section>
+                <h2>Q2. Tropical getaway or countryside?</h2>
+                <a href="Q3a.html"><button>Tropical getaway</button></a>
+                <a href="Q3b.html"><button>Countryside</button></a>
+            </section>
+        </div>
+        <div class="bottom-content">
+            <a href="home.html"><button>Restart</button></a>
+        </div>
+    </div>
 </body>
 </html>

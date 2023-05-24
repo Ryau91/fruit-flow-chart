@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <title>Fruit flow chart</title>
 </head>
 <body>
-    <header>
-        <h1>Which fruit are you?</h1>
-    </header>
-    <fieldset>
-        <h4>Q2. Hard way or easy way?</h4>
-        <button onclick="window.location.href='Q3c.html'">Hard way</button>
-        <button onclick="window.location.href='Q3d.html'">Easy way</button>
-    </fieldset>
-    <br/>
-    <footer>
-        <button onclick="window.location.href='home.html'">Restart</button>
-    </footer>    
+    <div class="main-box">
+        <div class="top-content">
+            <header>
+                <h1><i>Which fruit are you?</i></h1>
+            </header>
+        </div>
+        <div class="main-content">
+            <section>
+                <h2>Q2. Hard way or easy way?</h2>
+                <a href="Q3c.html"><button>Hard way</button></a>
+                <a href="Q3d.html"><button>Easy way</button></a>
+            </section>
+        </div>
+        <div class="bottom-content">
+            <a href="home.html"><button>Restart</button></a>
+        </div>
+    </div>  
 </body>
 </html>
